@@ -4,10 +4,12 @@ import Hero from "../components/hero";
 
 const Home = () => {
   return (
-    <div className="bg-[#D9DAE3] h-full px-5 lg:px-10 xl:px-40 py-10">
-      <Header />
-      <Hero />
-    </div>
+    <section className="bg-[#D9DAE3] px-5 lg:px-10 xl:px-40 py-10">
+      <div className="max-w-[120rem] w-full mx-auto h-full">
+        <Header />
+        <Hero />
+      </div>
+    </section>
   );
 };
 
